@@ -10,7 +10,7 @@ public class Controller {
 
     @GetMapping("/")
     public ResponseEntity<?> helloWorld(){
-        return new ResponseEntity("Hello Charu", HttpStatus.OK);
+        return new ResponseEntity("Hello Suhail, HttpStatus.OK);
     }
 
 
